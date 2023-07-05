@@ -1,0 +1,158 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    height: 20vh;
+    background-color: #1E90FF;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    width: 80vw;
+    height: 5vh;
+
+
+
+}
+
+li {
+
+    display: flex;
+    padding: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #191970;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 0 0 18rem;
+}
+
+a:hover{
+    color: white;
+    box-shadow: 0 5 18rem;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    background-image: url(img/photo-1526991902737-3cd476541629.jpg);
+    background-size: 100%;
+    background-position: center;
+
+
+}
+
+.TextoSection1 {
+
+    width: 50vw;
+}
+
+
+.textoSection1 {
+    width: 30vw;
+    color: white;
+
+}
+
+.ImagemSection1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 40vh;
+
+}
+
+.imagemInveno {
+    width: 22vw;
+    height: 50vh;
+}
+
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-color: #1E90FF;
+
+
+}
+
+.TextoSection2 {
+
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    background-image: url(img/photo-1526991902737-3cd476541629.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+.imgUrso {
+
+    width: 20vw;
+}
+
+footer {
+    display: flex;
+    height: 20vh;
+    background-color: #1E90FF;
+}
+
+.Icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 30vw;
+    
+}
+
+.bx {
+    font-size: 40px;
+}
+
+.TextoFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    color: white;
+    
+}
+
+.PinguinImagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+}
